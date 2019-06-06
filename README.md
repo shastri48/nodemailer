@@ -22,3 +22,10 @@ It is used for :
 ##### Part III
 1. It uses `sendMail` function to send mail along with `mailOption` parameter.
 2. Takes a callback for producing the status of the email processed. 
+
+#### Steps to Run this project
+** Keep node pre installed
+1. Clone this project to local
+2. `npm install` to install all related packages
+3. Set up `.env` for username and password
+4. Run this project via console typing `node server.js` 

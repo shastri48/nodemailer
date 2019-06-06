@@ -16,7 +16,12 @@ let mailOptions = {
     from: '"Abhishek Shastri 👻" <shastri@gmail.com>',
     to: 'a.shastri@gmail.com',
     subject: 'Testing node mailer',
-    html: '<h1>Hey this is text from nodemailer test</h1>'
+    html: '<h1>Hey this is text from nodemailer test</h1>',
+    attachments: [
+        {
+            path: './image.jpeg'
+        }
+    ]
 };
 
 //step 3

@@ -17,6 +17,7 @@ It is used for :
 
 ##### Part II
 1. Has `mailOption` which includes details of mail as (to/from/subject/text)
+2. Can send any attachments as well from local file directory or for further refer nodemailer documentation
 
 ##### Part III
 1. It uses `sendMail` function to send mail along with `mailOption` parameter.

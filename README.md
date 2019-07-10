@@ -1,4 +1,5 @@
 ## This APP is based on npm package nodemailer
+### can be used to send emails using this script
 
 This is a node application based on `nodemailer`
 It is used for : 
